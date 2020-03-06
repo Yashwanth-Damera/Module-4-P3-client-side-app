@@ -30,6 +30,7 @@
             <li><a href="index.html" >Index</a></li>
             <li><a href="contact.html" >Contact</a></li>
             <li><a href="Converter.html" class ="active">Converter</a></li>
+            <li><a href="About.html">About</a></li>
         </ul>
 
 
@@ -44,28 +45,31 @@
 <hr class="line">
 </header>
 <main>
-   <form class="Converter">
-    <label for="Pounds">Enter Pounds to Convert:</label>
-    <input type="text" id="Pounds" name="Pounds" style="margin-left: 100px;" placeholder="Pounds"> 
-    <br>
-    <br>
-    <label for="Kilograms">Enter Kilograms to convert:</label>
-    <input type="text" id="Kilograms" name="Kilograms" style="margin-left: 85px;" placeholder="Kilograms">
-    <br>
-    <br>
-    <br>
-    <label for="Convert">Converted Value:</label>
-  </form>
-  <br>
-  <br>
-  <section class="button_class">
-    <button style="width: 100px;">Reset</button>
+    <h2>Weight Converter</h2>
+    <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
     
-    <button style="width: 100px;">Submit</button>
+    <p>
+      <label>Pounds</label>
+      <input id="inputPounds" type="number" placeholder="Pounds"
+       oninput="weightConverter(this.value)" 
+       onchange="weightConverter(this.value)">
+    </p>
+    <p>Kilograms: <span id="outputKilograms"></span></p>
  
+</section>
+<section>
+    <p>Type a value in the Kilograms field to convert the value to Pounds:</p>
+    <p>
+        <label>Kilograms</label>
+        <input id="inputKilorams" type="number" placeholder="Kilograms" 
+        oninput="weightConverter(this.value)"
+        onchange="weightConverter(this.value)">
+      </p>
+      <p>Pounds: <span id="outputPounds"></span></p>
 </section>
 </main>
  </body>
+ <script src="converter.js"></script>
  <br>
  <br>
 
