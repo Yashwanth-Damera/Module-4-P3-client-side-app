@@ -1,0 +1,77 @@
+   
+      .navLinks {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+        background-color:black;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: 50px;
+    }
+    .navLinks li  {
+      float: left;
+    }
+
+   .navLinks li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.flex-container {
+  display: flex;
+}
+
+.navLinks li a:hover {
+  background-color:gray;
+}
+
+.active{
+  background-color: rgb(7, 100, 7);
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 80%;
+  }
+
+  .tg  {border-collapse:collapse;border-spacing:0px;margin:0px}
+  .tg td{font-family:Arial, sans-serif;font-size:12px;padding:20px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black}
+  .tg th{font-weight:bold;font-family:Arial, sans-serif;font-size:14px;padding:20px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black}
+  .tg .tg-2tzm{font-weight:bold;font-size:14px;font-family:"Arial Black", Gadget, sans-serif !important;;border-color:inherit;text-align:left;vertical-align:top}
+  .tg .tg-0lax{text-align:left;vertical-align:top}
+  .profile {margin-left: 25cm;}
+
+  .footer {
+    position: -webkit-sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    margin: 0px;
+  }
+   .line {
+    border-top: 1px solid;
+   }
+
+   .profile {
+     font-size: large;
+     display: table-row;
+     float: inline-end;
+     
+   }
+
+ 
+
+
+  
+   
