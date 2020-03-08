@@ -1,6 +1,23 @@
-<script>
-function weightConverter(valNum) {
-  document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
-  document.getElementById("outputPounds").innerHTML=valNum*2.2046;
+function CalculateArea(){
+    const radi =document.getElementById("radius").value;
+    const Acircle = radi * radi * Math.PI
+    document.getElementById("Calc").innerHTML = Acircle
 }
-</script>
+
+
+
+
+
+// function restoGrandtotal()
+// {
+//      const first=document.querySelector("#name").value
+//      const ans=getlength(first)
+         
+     
+     
+//      document.getElementById("namecount").innerHTML = ans  
+
+
+// }
+
+// const getlength=(mystr)=>{return mystr.length}

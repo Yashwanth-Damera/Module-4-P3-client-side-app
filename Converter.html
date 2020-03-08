@@ -45,27 +45,25 @@
 <hr class="line">
 </header>
 <main>
-    <h2>Weight Converter</h2>
-    <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
-    
-    <p>
-      <label>Pounds</label>
-      <input id="inputPounds" type="number" placeholder="Pounds"
-       oninput="weightConverter(this.value)" 
-       onchange="weightConverter(this.value)">
-    </p>
-    <p>Kilograms: <span id="outputKilograms"></span></p>
- 
-</section>
-<section>
-    <p>Type a value in the Kilograms field to convert the value to Pounds:</p>
-    <p>
-        <label>Kilograms</label>
-        <input id="inputKilorams" type="number" placeholder="Kilograms" 
-        oninput="weightConverter(this.value)"
-        onchange="weightConverter(this.value)">
-      </p>
-      <p>Pounds: <span id="outputPounds"></span></p>
+    <section>
+        <h1>Area of Circle</h1>
+        <hr>
+        <table align="center">
+            <tr>
+                <td>
+                    <label> Enter the radius of circle: </label>
+                    <input type="number" id="radius" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Area of Circle: <span id="Calc"></span><label>
+                </td>
+            </tr>
+        </table>
+        <p><button onclick="CalculateArea()">Result</button> </p>
+    </main>
+
 </section>
 </main>
  </body>
